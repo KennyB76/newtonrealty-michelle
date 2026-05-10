@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+.env.local
+*.key
+*secret*
+
+# Recon / build artifacts
+_recon/
+_copy/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

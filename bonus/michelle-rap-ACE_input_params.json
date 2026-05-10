@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "chill hip-hop, lo-fi rnb hiphop fusion, female solo rap, husky raspy voice, mid-low register, breathy texture, slight grit, doja cat style melodic rap, chill swag confident playful tone, boom-bap drums laid back, soft jazz piano keys, warm bass, vinyl crackle subtle, 80 bpm relaxed, hair salon premium, manhattan koreatown, family pride, cool sophisticated, polished modern mix, vocal forward, clean",
+    "lyrics": "[verse]\nStep into Kakaboka, baby take a seat\nMichelle behind me, scissors flow so neat\nKorean grandmaster touch, texture so unique\nLayer by layer, watch me peak yeah\n\n[chorus]\nShe know my hair (she know it)\nYeah she know my hair (she got it)\nFamily hands, premium care\nManhattan walls, that Michelle stare\n\n[verse]\nVeteran scissors, twenty something years\nShe don't rush, she listen, no fears\nNJ to Manhattan we been holdin on\nCuts so clean even haters lookin gone\n\n[outro]\nBook it up, Kakaboka\nWe the ones, on top\nShe know my hair",
+    "audio_duration": 55.0,
+    "infer_step": 27,
+    "guidance_scale": 7.5,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 10.0,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0.0,
+    "min_guidance_scale": 3.0,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.27028489112854004,
+        "diffusion": 5.60566782951355,
+        "latent2audio": 1.680206060409546
+    },
+    "actual_seeds": [
+        42
+    ],
+    "retake_seeds": [
+        1435259892
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "C:\\NewtonHQ\\00_meta\\OUTPUT\\michelle-landing\\bonus\\michelle-rap-ACE.wav"
+}
